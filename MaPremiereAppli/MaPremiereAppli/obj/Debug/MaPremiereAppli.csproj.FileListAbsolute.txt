@@ -1,1 +1,6 @@
 C:\Users\rpage\Documents\LearnC\MaPremiereAppli\MaPremiereAppli\bin\Debug\MaPremiereAppli.exe.config
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\MaPremiereAppli\bin\Debug\MaPremiereAppli.exe
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\MaPremiereAppli\bin\Debug\MaPremiereAppli.pdb
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\MaPremiereAppli\obj\Debug\MaPremiereAppli.csprojResolveAssemblyReference.cache
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\MaPremiereAppli\obj\Debug\MaPremiereAppli.exe
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\MaPremiereAppli\obj\Debug\MaPremiereAppli.pdb
