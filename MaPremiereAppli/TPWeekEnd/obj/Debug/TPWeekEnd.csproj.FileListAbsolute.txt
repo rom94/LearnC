@@ -1,0 +1,6 @@
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPWeekEnd\bin\Debug\TPWeekEnd.exe.config
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPWeekEnd\bin\Debug\TPWeekEnd.exe
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPWeekEnd\bin\Debug\TPWeekEnd.pdb
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPWeekEnd\obj\Debug\TPWeekEnd.csprojResolveAssemblyReference.cache
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPWeekEnd\obj\Debug\TPWeekEnd.exe
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPWeekEnd\obj\Debug\TPWeekEnd.pdb
