@@ -22,15 +22,16 @@ namespace TPWeekEnd
                 }
                 else
                 {
-                    if (DateTime.Now.Hour >= 9 && DateTime.Now.Hour < 18)
-                    {
-                        AfficherBonneJournee();
-                    }
-                    else
-                    {
-                        if (DateTime.Now.Hour >= 18 && DateTime.Now.DayOfWeek == DayOfWeek.Friday)
+                    if (DateTime.Now.Hour >=18 && DateTime.Now.DayOfWeek == DayOfWeek.Friday)
                         {
                             AfficherBonWeekend();
+                        }
+                    
+                    else
+                    {
+                        if (DateTime.Now.Hour >= 9 && DateTime.Now.Hour < 18)
+                        {
+                            AfficherBonneJournee();
                         }
                         else
                         {
@@ -39,6 +40,7 @@ namespace TPWeekEnd
                     }
                 }
             }
+            Console.ReadKey(); //Permet de bloquer la fenêtre (attente de l'appui d'une touche)
         }
 
         private static void AfficherBonWeekend ()
