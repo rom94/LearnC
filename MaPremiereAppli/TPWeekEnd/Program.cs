@@ -22,7 +22,7 @@ namespace TPWeekEnd
                 }
                 else
                 {
-                    if (DateTime.Now.Hour >=18 && DateTime.Now.DayOfWeek == DayOfWeek.Friday)
+                    if (DateTime.Now.Hour >= 18 && DateTime.Now.DayOfWeek == DayOfWeek.Friday)
                         {
                             AfficherBonWeekend();
                         }

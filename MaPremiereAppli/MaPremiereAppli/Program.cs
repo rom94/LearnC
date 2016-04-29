@@ -101,9 +101,21 @@ namespace MaPremiereAppli
             /*Jours lundi = Jours.Lundi;
             Console.WriteLine(lundi);*/
 
-            Console.WriteLine(DateTime.Now);
-            Console.WriteLine(Environment.UserName);
+            /*Console.WriteLine(DateTime.Now);
+            Console.WriteLine(Environment.UserName);*/
 
+            /*int compteur;
+            for (compteur = 0; compteur < 5; compteur++)
+            {
+                Console.WriteLine("Salut " + compteur);
+            }*/
+
+            string[] jours = new string[] {"Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche" };
+            int indice;
+            for (indice = 0; indice < jours.Length; indice++)
+            {
+                Console.WriteLine(jours[indice]);
+            }
         }
 
         /*private static void DireBonjour (string prenom, int age)
