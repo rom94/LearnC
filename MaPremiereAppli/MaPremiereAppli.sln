@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaPremiereAppli", "MaPremie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPWeekEnd", "TPWeekEnd\TPWeekEnd.csproj", "{4102A3B3-7970-4A90-A6C6-7C2542EA0B1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculsEnBoucle", "CalculsEnBoucle\CalculsEnBoucle.csproj", "{C9AC9518-0257-40AF-90F7-E1AAABB5F3FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{4102A3B3-7970-4A90-A6C6-7C2542EA0B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4102A3B3-7970-4A90-A6C6-7C2542EA0B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4102A3B3-7970-4A90-A6C6-7C2542EA0B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AC9518-0257-40AF-90F7-E1AAABB5F3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AC9518-0257-40AF-90F7-E1AAABB5F3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AC9518-0257-40AF-90F7-E1AAABB5F3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AC9518-0257-40AF-90F7-E1AAABB5F3FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

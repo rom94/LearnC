@@ -110,11 +110,39 @@ namespace MaPremiereAppli
                 Console.WriteLine("Salut " + compteur);
             }*/
 
-            string[] jours = new string[] {"Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche" };
+            /*string[] jours = new string[] {"Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche" };
             int indice;
             for (indice = 0; indice < jours.Length; indice++)
             {
                 Console.WriteLine(jours[indice]);
+            }*/
+
+            /*string[] jours = new string[] { "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"};
+            int i = 0;
+            bool trouve = false;
+            while (i < jours.Length && !trouve)
+            {
+                string valeur = jours[i];
+                if (valeur == "Mardi")
+                {
+                    trouve = true;
+                }
+                else
+                {
+                    i++;
+                }
+            }
+            if (!trouve)
+                Console.WriteLine("Valeur non trouvé");
+            else
+                Console.WriteLine("Trouvé à l'indice " + i);*/
+
+            int[] tableau = new int[] { 1, 2, 3, 4 };
+            int i = 0;
+            while (i <= tableau.Length)
+            {
+                Console.Write(tableau[i]);
+                i++;
             }
         }
 

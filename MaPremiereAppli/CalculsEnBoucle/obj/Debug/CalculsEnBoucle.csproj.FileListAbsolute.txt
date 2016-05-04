@@ -1,0 +1,6 @@
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\CalculsEnBoucle\bin\Debug\CalculsEnBoucle.exe.config
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\CalculsEnBoucle\bin\Debug\CalculsEnBoucle.exe
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\CalculsEnBoucle\bin\Debug\CalculsEnBoucle.pdb
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\CalculsEnBoucle\obj\Debug\CalculsEnBoucle.csprojResolveAssemblyReference.cache
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\CalculsEnBoucle\obj\Debug\CalculsEnBoucle.exe
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\CalculsEnBoucle\obj\Debug\CalculsEnBoucle.pdb
