@@ -137,13 +137,6 @@ namespace MaPremiereAppli
             else
                 Console.WriteLine("Trouvé à l'indice " + i);*/
 
-            int[] tableau = new int[] { 1, 2, 3, 4 };
-            int i = 0;
-            while (i <= tableau.Length)
-            {
-                Console.Write(tableau[i]);
-                i++;
-            }
         }
 
         /*private static void DireBonjour (string prenom, int age)

@@ -1,0 +1,6 @@
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TirageLoto\bin\Debug\TirageLoto.exe.config
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TirageLoto\bin\Debug\TirageLoto.exe
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TirageLoto\bin\Debug\TirageLoto.pdb
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TirageLoto\obj\Debug\TirageLoto.csprojResolveAssemblyReference.cache
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TirageLoto\obj\Debug\TirageLoto.exe
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TirageLoto\obj\Debug\TirageLoto.pdb

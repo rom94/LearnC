@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>0111d89f-4f39-46ce-b1b3-aa7ea86d9bad</ProjectGuid>
+    <ProjectGuid>{1126A82C-991B-424C-8120-F39FFA2764A1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TirageLoto</RootNamespace>

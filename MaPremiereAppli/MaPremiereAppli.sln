@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPWeekEnd", "TPWeekEnd\TPWe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculsEnBoucle", "CalculsEnBoucle\CalculsEnBoucle.csproj", "{C9AC9518-0257-40AF-90F7-E1AAABB5F3FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TirageLoto", "TirageLoto\TirageLoto.csproj", "{1126A82C-991B-424C-8120-F39FFA2764A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{C9AC9518-0257-40AF-90F7-E1AAABB5F3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9AC9518-0257-40AF-90F7-E1AAABB5F3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9AC9518-0257-40AF-90F7-E1AAABB5F3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1126A82C-991B-424C-8120-F39FFA2764A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1126A82C-991B-424C-8120-F39FFA2764A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1126A82C-991B-424C-8120-F39FFA2764A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1126A82C-991B-424C-8120-F39FFA2764A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
