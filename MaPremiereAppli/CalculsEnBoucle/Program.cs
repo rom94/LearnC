@@ -10,16 +10,16 @@ namespace CalculsEnBoucle
     {
         static void Main (string[] args)
         {
-            Console.WriteLine(CalculSommeEntier(1, 20));
+            /*Console.WriteLine(CalculSommeEntier(1, 20));
             Console.WriteLine(CalculSommeEntier(1, 100));
 
             List<double> liste = new List<double> { 1.0, 5.5, 9.9, 2.8, 9.6 };
-            Console.WriteLine(CalculMoyenne(liste));
+            Console.WriteLine(CalculMoyenne(liste));*/
 
             Console.WriteLine(CalculSommeIntersection());
         }
 
-        static int CalculSommeEntier (int bornMin, int bornMax)
+        /*static int CalculSommeEntier (int bornMin, int bornMax)
         {
             int resultat = 0;
             for (int i = bornMin; i <= bornMax; i++)
@@ -40,9 +40,9 @@ namespace CalculsEnBoucle
                 somme += valeur;
             }
             return somme / liste.Count;
-        }
+        }*/
 
-        static int CalculSommeIntersection ()
+        /*static int CalculSommeIntersection ()
         {
             List<int> multiple3 = new List<int>();
             List<int> multiple5 = new List<int>();
@@ -69,6 +69,31 @@ namespace CalculsEnBoucle
                 }
             }
 
+            return somme;
+        }*/
+
+        static int CalculSommeIntersection ()
+        {
+            List<int> multiplesDe3 = new List<int>();
+            List<int> multiplesDe5 = new List<int>();
+
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 3 == 0)
+                    multiplesDe3.Add(i);
+                if (i % 5 == 0)
+                    multiplesDe5.Add(i);
+            }
+
+            int somme = 0;
+            foreach (int m3 in multiplesDe3)
+            {
+                foreach (int m5 in multiplesDe5)
+                {
+                    if (m3 == m5)
+                        somme += m3;
+                }
+            }
             return somme;
         }
     }

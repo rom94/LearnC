@@ -8,7 +8,7 @@ namespace MaPremiereAppli
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main (string[] args)
         {
             /*int age = 30;
             Console.WriteLine(age);
@@ -60,7 +60,7 @@ namespace MaPremiereAppli
                     Console.WriteLine("Bonjour Mademoiselle");
                     break;
             }*/
-            
+
             /*DireBonjour("Romain", 27);
             DireBonjour("Nicolas", 18);*/
 
@@ -136,6 +136,50 @@ namespace MaPremiereAppli
                 Console.WriteLine("Valeur non trouvé");
             else
                 Console.WriteLine("Trouvé à l'indice " + i);*/
+
+            /*Console.WriteLine("Veuillez entrer une phrase");
+            string saisie = Console.ReadLine();
+            Console.WriteLine("Vous avez saisi: " + saisie);*/
+
+            /*bool ageIsValid = false;
+            int age = -1;
+            while (!ageIsValid)
+            {
+                Console.WriteLine("Veuillez saisir votre age");
+                string saisie = Console.ReadLine();
+                if (int.TryParse(saisie, out age))
+                {
+                    ageIsValid = true;
+                }
+                else
+                {
+                    ageIsValid = false;
+                    Console.WriteLine("L'age inscrit n'est pas correct");
+                }
+            }
+            Console.WriteLine("Vous avez " + age + " ans.");*/
+
+            /*Console.WriteLine("Veuillez appuyer sur une touche pour commencer le calcul ...");
+            Console.ReadKey(true);
+            int somme = 0;
+            for (int i = 0; i < 100; i++)
+            {
+                somme += i;
+            }
+            Console.WriteLine(somme);*/
+
+            Console.WriteLine("Voulez-vous continuer ? (0/N)");
+            ConsoleKeyInfo saisie = Console.ReadKey(true);
+            if (saisie.Key == ConsoleKey.O)
+            {
+                Console.WriteLine("On continue");
+            }
+            else
+            {
+                Console.WriteLine("On s'arrête");
+            }
+
+
 
         }
 
