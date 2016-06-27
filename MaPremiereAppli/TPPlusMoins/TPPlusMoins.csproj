@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>92176518-1893-4e4c-a2ac-5ca3df3ca107</ProjectGuid>
+    <ProjectGuid>{CEF38E6D-3FD6-4FAF-857C-C1EFD175C3D0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TPPlusMoins</RootNamespace>

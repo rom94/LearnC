@@ -1,0 +1,6 @@
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPPlusMoins\bin\Debug\TPPlusMoins.exe.config
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPPlusMoins\bin\Debug\TPPlusMoins.exe
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPPlusMoins\bin\Debug\TPPlusMoins.pdb
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPPlusMoins\obj\Debug\TPPlusMoins.csprojResolveAssemblyReference.cache
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPPlusMoins\obj\Debug\TPPlusMoins.exe
+C:\Users\rpage\Documents\LearnC\MaPremiereAppli\TPPlusMoins\obj\Debug\TPPlusMoins.pdb
