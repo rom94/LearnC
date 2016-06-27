@@ -16,7 +16,7 @@ namespace CalculsEnBoucle
             List<double> liste = new List<double> { 1.0, 5.5, 9.9, 2.8, 9.6 };
             Console.WriteLine(CalculMoyenne(liste));*/
 
-            Console.WriteLine(CalculSommeIntersection());
+                Console.WriteLine(CalculSommeIntersection());
         }
 
         /*static int CalculSommeEntier (int bornMin, int bornMax)
