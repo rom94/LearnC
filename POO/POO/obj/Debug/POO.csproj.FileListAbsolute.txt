@@ -1,1 +1,6 @@
 C:\Users\rpage\Documents\LearnC\POO\POO\bin\Debug\POO.exe.config
+C:\Users\rpage\Documents\LearnC\POO\POO\bin\Debug\POO.exe
+C:\Users\rpage\Documents\LearnC\POO\POO\bin\Debug\POO.pdb
+C:\Users\rpage\Documents\LearnC\POO\POO\obj\Debug\POO.csprojResolveAssemblyReference.cache
+C:\Users\rpage\Documents\LearnC\POO\POO\obj\Debug\POO.exe
+C:\Users\rpage\Documents\LearnC\POO\POO\obj\Debug\POO.pdb
