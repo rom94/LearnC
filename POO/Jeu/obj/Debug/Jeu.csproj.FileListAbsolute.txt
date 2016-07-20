@@ -1,0 +1,6 @@
+C:\Users\rpage\Documents\LearnC\POO\Jeu\bin\Debug\Jeu.exe.config
+C:\Users\rpage\Documents\LearnC\POO\Jeu\bin\Debug\Jeu.exe
+C:\Users\rpage\Documents\LearnC\POO\Jeu\bin\Debug\Jeu.pdb
+C:\Users\rpage\Documents\LearnC\POO\Jeu\obj\Debug\Jeu.exe
+C:\Users\rpage\Documents\LearnC\POO\Jeu\obj\Debug\Jeu.pdb
+C:\Users\rpage\Documents\LearnC\POO\Jeu\obj\Debug\Jeu.csprojResolveAssemblyReference.cache

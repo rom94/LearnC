@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>b2151891-e1d0-45ef-9435-53cf13baa875</ProjectGuid>
+    <ProjectGuid>{C6CD679F-4005-45B4-AE73-CCF7A7B5E157}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Jeu</RootNamespace>
@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="De.cs" />
+    <Compile Include="Joueur.cs" />
+    <Compile Include="MonstreDifficile.cs" />
+    <Compile Include="MonstreFacile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
