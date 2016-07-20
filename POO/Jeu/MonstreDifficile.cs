@@ -18,7 +18,7 @@ namespace Jeu
 
         private int SortMagique ()
         {
-            int valeur = de.LancerLeDe();
+            int valeur = De.LancerLeDe();
             if (valeur == 6)
             {
                 return 0;

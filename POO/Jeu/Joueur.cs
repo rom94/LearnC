@@ -8,7 +8,6 @@ namespace Jeu
 {
     class Joueur
     {
-        private De de;
         public int PtsDeVie { get; private set; }
         public bool EstVivant
         {
@@ -18,7 +17,6 @@ namespace Jeu
         public Joueur (int points)
         {
             PtsDeVie = points;
-            de = new De();
         }
 
         public void Attaque (MonstreFacile monstre)
@@ -31,9 +29,20 @@ namespace Jeu
             }
         }
 
+        public void Attaque (BossDeFin boss)
+        {
+            int nbPoints = LanceLeDe(26);
+            boss.SubitDegats(nbPoints);
+        }
+
         public int LanceLeDe ()
         {
-            return de.LancerLeDe();
+            return De.LancerLeDe();
+        }
+
+        public int LanceLeDe (int valeur)
+        {
+            return De.LancerLeDe(valeur);
         }
 
         public void SubitDegats (int degats)
@@ -46,7 +55,7 @@ namespace Jeu
 
         private bool BouclierFonctionne ()
         {
-            return de.LancerLeDe() <= 2;
+            return De.LancerLeDe() <= 2;
         }
     }
 }

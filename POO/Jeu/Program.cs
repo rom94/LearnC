@@ -12,7 +12,22 @@ namespace Jeu
 
         static void Main (string[] args)
         {
-            Jeu1();
+            AfficheMenu();
+            ConsoleKeyInfo consoleKeyInfo = Console.ReadKey(true);
+            while (consoleKeyInfo.Key != ConsoleKey.D1 && consoleKeyInfo.Key != ConsoleKey.D2 && consoleKeyInfo.Key != ConsoleKey.NumPad1 && consoleKeyInfo.Key != ConsoleKey.NumPad2)
+            {
+                AfficheMenu();
+                consoleKeyInfo = Console.ReadKey(true);
+            }
+
+            if (consoleKeyInfo.Key == ConsoleKey.D1 || consoleKeyInfo.Key == ConsoleKey.NumPad1)
+            {
+                Jeu1();
+            }
+            else
+            {
+                Jeu2();
+            }
         }
 
         private static void Jeu1 ()
@@ -63,6 +78,38 @@ namespace Jeu
             else
             {
                 return new MonstreDifficile();
+            }
+        }
+
+        private static void AfficheMenu ()
+        {
+            Console.Clear();
+            Console.WriteLine("Veuillez choisir votre mode de jeu :");
+            Console.WriteLine("\t1 : Contre les monstres");
+            Console.WriteLine("\t2 : Contre le boss de fin");
+        }
+
+        private static void Jeu2 ()
+        {
+            Joueur romain = new Joueur(150);
+            BossDeFin boss = new BossDeFin(250);
+
+            while (romain.EstVivant && boss.EstVivant)
+            {
+                romain.Attaque(boss);
+                if (boss.EstVivant)
+                {
+                    boss.Attaque(romain);
+                }
+            }
+
+            if (romain.EstVivant)
+            {
+                Console.WriteLine("Bravo vous avez battu le boss");
+            }
+            else
+            {
+                Console.WriteLine("Game over");
             }
         }
     }

@@ -8,16 +8,21 @@ namespace Jeu
 {
     class De
     {
-        private Random random;
+        private static Random random = new Random();
 
         public De ()
         {
             random = new Random();
         }
 
-        public int LancerLeDe ()
+        public static int LancerLeDe ()
         {
             return random.Next(1, 7);
+        }
+
+        public static int LancerLeDe (int valeur)
+        {
+            return random.Next(1, valeur);
         }
     }
 }

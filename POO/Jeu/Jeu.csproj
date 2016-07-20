@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BossDeFin.cs" />
     <Compile Include="De.cs" />
     <Compile Include="Joueur.cs" />
     <Compile Include="MonstreDifficile.cs" />

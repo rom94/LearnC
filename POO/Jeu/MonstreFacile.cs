@@ -30,7 +30,7 @@ namespace Jeu
 
         public int LancerLeDe ()
         {
-            return de.LancerLeDe();
+            return De.LancerLeDe();
         }
 
         public void SubitDegats ()
